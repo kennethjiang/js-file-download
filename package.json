@@ -2,7 +2,7 @@
   "name": "react-file-download",
   "version": "0.1.0",
   "description": "React component that trigger browser to save javascript-generated content to a file",
-  "main": "index.js",
+  "main": "file-download.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
