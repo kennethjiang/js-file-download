@@ -1,0 +1,22 @@
+{
+  "name": "react-file-download",
+  "version": "0.1.0",
+  "description": "React component that trigger browser to save javascript-generated content to a file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Rhumbix/react-file-download.git"
+  },
+  "keywords": [
+    "react-components"
+  ],
+  "author": "Kenneth Jiang <kenneth.jiang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rhumbix/react-file-download/issues"
+  },
+  "homepage": "https://github.com/Rhumbix/react-file-download"
+}
