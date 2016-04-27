@@ -7,5 +7,4 @@ module.exports.fileDownload = function(data, filename) {
         tempLink.href = csvURL;
         tempLink.setAttribute('download', filename);
         tempLink.click();
-    }
 }
