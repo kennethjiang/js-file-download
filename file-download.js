@@ -1,4 +1,4 @@
-import React from 'react';
+var React = require('react');
 
 module.exports.fileDownload = function(data, filename) {
         var data = new Blob([data], {type: 'text/csv'});
