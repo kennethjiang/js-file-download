@@ -1,6 +1,6 @@
 {
   "name": "react-file-download",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React component that trigger browser to save javascript-generated content to a file",
   "main": "file-download.js",
   "scripts": {
@@ -14,7 +14,10 @@
     "url": "git@github.com:kennethjiang/react-file-download.git"
   },
   "keywords": [
-    "react-components"
+    "react-components",
+    "react",
+    "file",
+    "download"
   ],
   "author": "Kenneth Jiang <kenneth.jiang@gmail.com>",
   "license": "MIT",
