@@ -10,6 +10,7 @@ module.exports = function(data, filename) {
         var tempLink = document.createElement('a');
         tempLink.href = csvURL;
         tempLink.setAttribute('download', filename);
+        tempLink.setAttribute('target', '_blank');
         tempLink.click();
     }
 }
