@@ -1,7 +1,7 @@
 var React = require('react');
 
-module.exports = function(data, filename) {
-    var blob = new Blob([data], {type: 'text/csv'});
+module.exports = function(data, filename, mime) {
+    var blob = new Blob([data], {type: mime || 'application/octet-stream'});
     if (typeof window.navigator.msSaveBlob !== 'undefined') {
         // IE workaround for "HTML7007: One or more blob URLs were 
         // revoked by closing the blob for which they were created. 
@@ -10,9 +10,9 @@ module.exports = function(data, filename) {
         window.navigator.msSaveBlob(blob, filename);
     }
     else {
-        var csvURL = window.URL.createObjectURL(blob);
+        var blobURL = window.URL.createObjectURL(blob);
         var tempLink = document.createElement('a');
-        tempLink.href = csvURL;
+        tempLink.href = blobURL;
         tempLink.setAttribute('download', filename);
         tempLink.setAttribute('target', '_blank');
         document.body.appendChild(tempLink);
