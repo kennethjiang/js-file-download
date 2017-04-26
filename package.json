@@ -10,7 +10,7 @@
     "react": "^0.14.7"
   },
   "peerDependencies": {
-    "react": "^0.14.7 || ^0.15.0"
+    "react": "^0.14.7 || ^15.0.0"
   },
   "repository": {
     "type": "git",
