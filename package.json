@@ -6,12 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "react": "^0.14.7"
-  },
-  "peerDependencies": {
-    "react": "^0.14.7 || ^15.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:kennethjiang/react-file-download.git"
