@@ -1,5 +1,3 @@
-var React = require('react');
-
 module.exports = function(data, filename, mime) {
     var blob = new Blob([data], {type: mime || 'application/octet-stream'});
     if (typeof window.navigator.msSaveBlob !== 'undefined') {
