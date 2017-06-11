@@ -10,11 +10,13 @@ module.exports = function(data, filename, mime) {
     else {
         var blobURL = window.URL.createObjectURL(blob);
         var tempLink = document.createElement('a');
+        tempLink.style = "display: none";
         tempLink.href = blobURL;
         tempLink.setAttribute('download', filename);
         tempLink.setAttribute('target', '_blank');
         document.body.appendChild(tempLink);
         tempLink.click();
         document.body.removeChild(tempLink);
+        window.URL.revokeObjectURL(blobURL);
     }
 }
