@@ -13,7 +13,6 @@ module.exports = function(data, filename, mime) {
         tempLink.style = "display: none";
         tempLink.href = blobURL;
         tempLink.setAttribute('download', filename);
-        tempLink.setAttribute('target', '_blank');
         document.body.appendChild(tempLink);
         tempLink.click();
         document.body.removeChild(tempLink);
