@@ -1,4 +1,4 @@
-# React File Download
+# Javascript File Download
 
 [![NPM version][npm-badge]][npm] [![Build Status][travis-ci-image]][travis-ci-url]
 
@@ -6,15 +6,15 @@
 [![devDependency Status][dev-deps-badge]][dev-deps]
 [![peerDependency Status][peer-deps-badge]][peer-deps]
 
-[React](http://facebook.github.io/react/) component to trigger browser to save data to file as if it was downloaded.
+Javascript function to trigger browser to save data to file as if it was downloaded.
 
 # Installation
 
-    npm install react-file-download --save
+    npm install file-download-js --save
 
 # Usage
 
-    var fileDownload = require('react-file-download');
+    var fileDownload = require('file-download-js');
     fileDownload(data, 'filename.csv');
 
 [npm-badge]: http://badge.fury.io/js/react-download.svg

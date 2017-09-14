@@ -1,7 +1,7 @@
 {
   "name": "react-file-download",
   "version": "0.3.4",
-  "description": "React component that trigger browser to save javascript-generated content to a file",
+  "description": "Javascript function that triggers browser to save javascript-generated content to a file",
   "main": "file-download.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,7 @@
     "url": "git@github.com:kennethjiang/react-file-download.git"
   },
   "keywords": [
-    "react-components",
-    "react",
+    "javascript",
     "file",
     "download"
   ],
