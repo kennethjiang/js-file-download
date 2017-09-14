@@ -10,11 +10,11 @@ Javascript function to trigger browser to save data to file as if it was downloa
 
 # Installation
 
-    npm install file-download-js --save
+    npm install js-file-download --save
 
 # Usage
 
-    var fileDownload = require('file-download-js');
+    var fileDownload = require('js-file-download');
     fileDownload(data, 'filename.csv');
 
 [npm-badge]: http://badge.fury.io/js/react-download.svg
