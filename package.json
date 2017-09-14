@@ -1,14 +1,14 @@
 {
   "name": "react-file-download",
-  "version": "0.3.4",
-  "description": "React component that trigger browser to save javascript-generated content to a file",
+  "version": "0.3.5",
+  "description": "This package has been deprecated! Please use js-file-download instead",
   "main": "file-download.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kennethjiang/react-file-download.git"
+    "url": "git@github.com:kennethjiang/js-file-download.git"
   },
   "keywords": [
     "react-components",
@@ -19,7 +19,7 @@
   "author": "Kenneth Jiang <kenneth.jiang@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rhumbix/react-file-download/issues"
+    "url": "https://github.com/kennethjiang/js-file-download/issues"
   },
-  "homepage": "https://github.com/Rhumbix/react-file-download"
+  "homepage": "https://github.com/kennethjiang/js-file-download"
 }
