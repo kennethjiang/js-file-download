@@ -1,6 +1,6 @@
 {
-  "name": "react-file-download",
-  "version": "0.3.4",
+  "name": "js-file-download",
+  "version": "0.4.0",
   "description": "Javascript function that triggers browser to save javascript-generated content to a file",
   "main": "file-download.js",
   "scripts": {
@@ -8,17 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kennethjiang/react-file-download.git"
+    "url": "git@github.com:kennethjiang/js-file-download.git"
   },
   "keywords": [
     "javascript",
     "file",
+    "react",
     "download"
   ],
   "author": "Kenneth Jiang <kenneth.jiang@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rhumbix/react-file-download/issues"
+    "url": "https://github.com/Rhumbix/js-file-download/issues"
   },
-  "homepage": "https://github.com/Rhumbix/react-file-download"
+  "homepage": "https://github.com/Rhumbix/js-file-download"
 }
