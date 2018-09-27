@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/Rhumbix/js-file-download/issues"
   },
-  "homepage": "https://github.com/Rhumbix/js-file-download"
+  "homepage": "https://github.com/Rhumbix/js-file-download",
+  "typings": "js-file-download.d.ts"
 }
