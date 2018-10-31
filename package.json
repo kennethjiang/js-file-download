@@ -4,7 +4,8 @@
   "description": "Javascript function that triggers browser to save javascript-generated content to a file",
   "main": "file-download.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint file-download.js",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
     "url": "https://github.com/kennethjiang/js-file-download/issues"
   },
   "homepage": "https://github.com/kennethjiang/js-file-download",
-  "typings": "js-file-download.d.ts"
+  "typings": "js-file-download.d.ts",
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  }
 }
