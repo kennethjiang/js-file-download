@@ -1,5 +1,5 @@
-module.exports = function(data, filename, mime, bom = null) {
-    var blobData = (bom) ? [bom, data] : [data]
+module.exports = function(data, filename, mime, bom) {
+    var blobData = (typeof bom !== 'undefined') ? [bom, data] : [data]
     var blob = new Blob(blobData, {type: mime || 'application/octet-stream'});
     if (typeof window.navigator.msSaveBlob !== 'undefined') {
         // IE workaround for "HTML7007: One or more blob URLs were 
