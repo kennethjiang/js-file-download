@@ -25,7 +25,11 @@ module.exports = function(data, filename, mime, bom) {
         
         document.body.appendChild(tempLink);
         tempLink.click();
-        document.body.removeChild(tempLink);
-        window.URL.revokeObjectURL(blobURL);
+        
+        // Fixes "webkit blob resource error 1"
+        setTimeout(function() {
+            document.body.removeChild(tempLink);
+            window.URL.revokeObjectURL(blobURL);
+        }, 0)
     }
 }
