@@ -1,6 +1,6 @@
 {
   "name": "js-file-download",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "description": "Javascript function that triggers browser to save javascript-generated content to a file",
   "main": "file-download.js",
   "scripts": {
