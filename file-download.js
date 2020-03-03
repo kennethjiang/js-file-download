@@ -9,7 +9,7 @@ module.exports = function(data, filename, mime, bom) {
         window.navigator.msSaveBlob(blob, filename);
     }
     else {
-        var blobURL = (window.URL ? window.URL : window.webkitURL).createObjectURL(blob);
+        var blobURL = window.URL && window.URL.createObjectURL(blob) ? window.URL.createObjectURL(blob) : window.webkitURL.createObjectURL(blob);
         var tempLink = document.createElement('a');
         tempLink.style.display = 'none';
         tempLink.href = blobURL;
