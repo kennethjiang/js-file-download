@@ -30,6 +30,6 @@ module.exports = function(data, filename, mime, bom) {
         setTimeout(function() {
             document.body.removeChild(tempLink);
             window.URL.revokeObjectURL(blobURL);
-        }, 0)
+        }, 200)
     }
 }
