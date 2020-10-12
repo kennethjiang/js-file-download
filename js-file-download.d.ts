@@ -3,6 +3,6 @@ declare module 'js-file-download' {
         data: string | ArrayBuffer | ArrayBufferView | Blob,
         filename: string,
         mime?: string,
-        bom?: string
+        bom?: string | Uint8Array
     ): void;
 }
